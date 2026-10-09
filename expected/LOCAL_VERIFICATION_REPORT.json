@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "scope": "Frozen result reproduction; independent phase-I LP check; no new vehicle integration",
+  "verified_manifest_files": 119,
+  "summary": {
+    "geometry_pairs": 324,
+    "F0_null_pairs": 108,
+    "dynamic_pairs": 162,
+    "feasibility_pairs": 54,
+    "phase_I_limiting_label_changes": 18,
+    "feasible_to_infeasible": 6,
+    "infeasible_to_feasible": 0,
+    "status_matrix": {
+      "feasible/feasible": 12,
+      "feasible/infeasible": 6,
+      "infeasible/feasible": 0,
+      "infeasible/infeasible": 36
+    },
+    "E_yaw_percent": {
+      "min": 0.0,
+      "P10": 7.874251709713262e-17,
+      "median": 3.0907383118929146,
+      "P90": 5.940537607088375,
+      "max": 8.815844673318407
+    },
+    "E_B_percent": {
+      "min": 4.358654565811136e-06,
+      "P10": 0.024539037094283636,
+      "median": 0.7732955078151145,
+      "P90": 1.8545922720146764,
+      "max": 3.9696809977363996
+    },
+    "max_abs_delta_r_rad_s": {
+      "min": 0.0014067806083880546,
+      "P10": 0.002515290344751373,
+      "median": 0.004752352070752592,
+      "P90": 0.007239016595228266,
+      "max": 0.00942651370982462
+    },
+    "max_abs_delta_beta_rad": {
+      "min": 0.00015411448730365704,
+      "P10": 0.0003101991787487103,
+      "median": 0.0006155940494971624,
+      "P90": 0.0010036309552275892,
+      "max": 0.0014274441290209718
+    },
+    "wheel_lumped_comparisons": 576
+  },
+  "snapshot_verification": {
+    "count": 72,
+    "phase_I_independent_solver": "SciPy linprog / HiGHS",
+    "max_abs_recomputed_rho_error": 7.105427357601002e-15,
+    "max_saved_phase_I_row_residual": 1.7763568394002505e-15,
+    "max_saved_feasible_QP_row_residual": 0.0,
+    "saved_QP_active_label_count_max": 0,
+    "new_vehicle_integrations": 0
+  },
+  "figure_table_comparison": {
+    "VSD_FIG3_TIME_HISTORIES.csv": {
+      "rows": 3008,
+      "max_abs_numeric_difference": 0.0
+    },
+    "VSD_STRATIFICATION_QUANTILES.csv": {
+      "rows": 33,
+      "max_abs_numeric_difference": 0.0
+    },
+    "VSD_FEASIBILITY_PLOT_RECORDS.csv": {
+      "rows": 54,
+      "max_abs_numeric_difference": 0.0
+    }
+  },
+  "environment": {
+    "Python": "3.12.14",
+    "NumPy": "2.3.5",
+    "SciPy": "1.18.1",
+    "Matplotlib": "3.11.2"
+  }
+}

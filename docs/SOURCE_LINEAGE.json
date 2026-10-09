@@ -1,0 +1,798 @@
+{
+  "schema_version": 1,
+  "source_archive": "VSD/reproducibility_archive",
+  "source_version": "frozen records supporting VSD submission candidate, 2026-10-09",
+  "entries": [
+    {
+      "source": "supplement/data/THERMAL_AUTHORITY_EFFECT_SIZE.csv",
+      "source_sha256": "3bec013de576c5b6e91cbccb8a50a3632370acb6eda63f571ce317a5ea4a156d",
+      "package_file": "data/tables/THERMAL_AUTHORITY_EFFECT_SIZE.csv",
+      "package_sha256": "3bec013de576c5b6e91cbccb8a50a3632370acb6eda63f571ce317a5ea4a156d",
+      "transformation": "Byte-identical frozen CSV"
+    },
+    {
+      "source": "supplement/data/THERMAL_YAW_ENGINEERING_TRANSLATION.csv",
+      "source_sha256": "27a3e8d40775581538b7454cc6f914ae3e08002d7b917c1507cba880d2719a98",
+      "package_file": "data/tables/THERMAL_YAW_ENGINEERING_TRANSLATION.csv",
+      "package_sha256": "27a3e8d40775581538b7454cc6f914ae3e08002d7b917c1507cba880d2719a98",
+      "transformation": "Byte-identical frozen CSV"
+    },
+    {
+      "source": "supplement/data/PHASE_I_RESERVE_PAIRWISE.csv",
+      "source_sha256": "2216cd3d51038c73e5d9761a2774f36b9da03727168359c27b793b9eeb60e2bc",
+      "package_file": "data/tables/PHASE_I_RESERVE_PAIRWISE.csv",
+      "package_sha256": "2216cd3d51038c73e5d9761a2774f36b9da03727168359c27b793b9eeb60e2bc",
+      "transformation": "Byte-identical frozen CSV"
+    },
+    {
+      "source": "supplement/data/ALL72_FROZEN_SNAPSHOTS.csv",
+      "source_sha256": "1e1356157dae2c554399173b6a953d334f6f1f6a56f82e777885e0489bfe2402",
+      "package_file": "data/tables/ALL72_FROZEN_SNAPSHOTS.csv",
+      "package_sha256": "1e1356157dae2c554399173b6a953d334f6f1f6a56f82e777885e0489bfe2402",
+      "transformation": "Byte-identical frozen CSV"
+    },
+    {
+      "source": "supplement/data/LUMPED_VS_WHEEL_RESOLVED_AUTHORITY.csv",
+      "source_sha256": "33ed355c1a80675663866927fb70a6e4091bef7da3a23335504728e4152b45f3",
+      "package_file": "data/tables/LUMPED_VS_WHEEL_RESOLVED_AUTHORITY.csv",
+      "package_sha256": "33ed355c1a80675663866927fb70a6e4091bef7da3a23335504728e4152b45f3",
+      "transformation": "Byte-identical frozen CSV"
+    },
+    {
+      "source": "supplement/data/FADE_FORM_ROBUSTNESS_RESULTS.csv",
+      "source_sha256": "342df2a183ec50856e0ed6a160ace6b750d0c92d1ee460ebae8af07fc2098c3c",
+      "package_file": "data/tables/FADE_FORM_ROBUSTNESS_RESULTS.csv",
+      "package_sha256": "342df2a183ec50856e0ed6a160ace6b750d0c92d1ee460ebae8af07fc2098c3c",
+      "transformation": "Byte-identical frozen CSV"
+    },
+    {
+      "source": "supplement/data/VSD_FIG3_TIME_HISTORIES.csv",
+      "source_sha256": "5db9543741b9e7f860d2ce4ad5d96c78a8407af179c407fb6c4d2610d9765388",
+      "package_file": "expected/VSD_FIG3_TIME_HISTORIES.csv",
+      "package_sha256": "5db9543741b9e7f860d2ce4ad5d96c78a8407af179c407fb6c4d2610d9765388",
+      "transformation": "Byte-identical reference readout, compared numerically"
+    },
+    {
+      "source": "supplement/data/VSD_STRATIFICATION_QUANTILES.csv",
+      "source_sha256": "52321143d518ddfb6d1596742035bae721f54e6d0533070483a16f1488e01986",
+      "package_file": "expected/VSD_STRATIFICATION_QUANTILES.csv",
+      "package_sha256": "52321143d518ddfb6d1596742035bae721f54e6d0533070483a16f1488e01986",
+      "transformation": "Byte-identical reference readout, compared numerically"
+    },
+    {
+      "source": "supplement/data/VSD_FEASIBILITY_PLOT_RECORDS.csv",
+      "source_sha256": "798a520328d2c1d50a14cea36fdb131dcfd8ce0a25b900fb0f2782b3d108dc19",
+      "package_file": "expected/VSD_FEASIBILITY_PLOT_RECORDS.csv",
+      "package_sha256": "798a520328d2c1d50a14cea36fdb131dcfd8ce0a25b900fb0f2782b3d108dc19",
+      "transformation": "Byte-identical reference readout, compared numerically"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/raw/local/P3_T475_pattern1_main.mat",
+      "source_sha256": "c3d238ccbba9c95a9c41138f084d23ebec1a292afc5fa5f3bcc6de302371a9f2",
+      "package_file": "data/records/output/thermal_authority/raw/local/P3_T475_pattern1_main.mat",
+      "package_sha256": "9ae0db5458ec89c132f607590dab76306573aaf03cf6b92b7d20dd937c2e6eb8",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/raw/local/P3_T475_pattern2_main.mat",
+      "source_sha256": "8af70f0f13efd6536be0b058f5d1b26f77fc6afe3ef1addf6ec1be92aa06d5f8",
+      "package_file": "data/records/output/thermal_authority/raw/local/P3_T475_pattern2_main.mat",
+      "package_sha256": "0f1f4adc1ce38349077fb0132db47cebc671d314d952290bc57f4970683230da",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/raw/local/P3_T475_pattern3_main.mat",
+      "source_sha256": "b8aab45e255d499e22f4fdc86138e2dc76c3e4768c5692e48f368835ab359eb2",
+      "package_file": "data/records/output/thermal_authority/raw/local/P3_T475_pattern3_main.mat",
+      "package_sha256": "509600f896df003a77304a85a054971872cbd9b4dc9e4cb429411e1a93780278",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/raw/local/P3_T475_pattern4_main.mat",
+      "source_sha256": "d82fcb240ee79907a93d8c9ca569916978e898de167cb337325a0cbd071b3d95",
+      "package_file": "data/records/output/thermal_authority/raw/local/P3_T475_pattern4_main.mat",
+      "package_sha256": "eec70a1011f63e7e0bacb54d2fe333399bb7dd9fa937bc5beb5ab08aec546f4a",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/final_submission_closure/trajectories/F1/P2_T475_pattern1_main.mat",
+      "source_sha256": "9fe32f0fa6e0bde073561e0ddf11304012884884496a529337bf883927cf80a1",
+      "package_file": "data/records/output/final_submission_closure/trajectories/F1/P2_T475_pattern1_main.mat",
+      "package_sha256": "25661b0ceadd2a3423d8e4cec92397c44f36bfcc9e5103ac6225edaf69d0db60",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/fade_independence/raw/F1/dynamic/P2_T475_pattern1_main.mat",
+      "source_sha256": "a0c3e088a5776c3363074964cc06c8ad15bd020d5d3dcc99367c541a0a3327b5",
+      "package_file": "data/records/output/fade_independence/raw/F1/dynamic/P2_T475_pattern1_main.mat",
+      "package_sha256": "c17f5c59eee8598e2126784e290fc65a9d7cef9a5d99950f2704342ad6ad384f",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/final_submission_closure/trajectories/F1/P2_T475_pattern2_main.mat",
+      "source_sha256": "5d45b882595da462d1e644c5bf82a28a142ce48399af9d62f8a2b98350d01a42",
+      "package_file": "data/records/output/final_submission_closure/trajectories/F1/P2_T475_pattern2_main.mat",
+      "package_sha256": "b11790bee5476ebf7b1534233853a5836a7c6aac271350bdda20bf1757367fff",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/fade_independence/raw/F1/dynamic/P2_T475_pattern2_main.mat",
+      "source_sha256": "4b822c1d3427b42dee1c6d7f88e4d841ef9bbc03d878ed747d8781391d95b8e4",
+      "package_file": "data/records/output/fade_independence/raw/F1/dynamic/P2_T475_pattern2_main.mat",
+      "package_sha256": "586db895e99f785af4391b6da9f981e3340ec802e7de493a05eb23caa3276fb1",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/final_submission_closure/trajectories/F1/P2_T475_pattern3_main.mat",
+      "source_sha256": "a080a7c66dbe5b1ace8f3c0478920d9c0c3c6859479f2ab69f36eec147f26856",
+      "package_file": "data/records/output/final_submission_closure/trajectories/F1/P2_T475_pattern3_main.mat",
+      "package_sha256": "3cb967fa3bccc10c5d84ebbc5d0df5649d3aa8b7cd1d296c1765d0ff7bbd2309",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/fade_independence/raw/F1/dynamic/P2_T475_pattern3_main.mat",
+      "source_sha256": "2f6e3549a2615bec83c00a626f8f4a53ceaeaa5fde49376c4cf58f898273bb70",
+      "package_file": "data/records/output/fade_independence/raw/F1/dynamic/P2_T475_pattern3_main.mat",
+      "package_sha256": "eaa39ee1da5968bfdabc79f8d06f1f469a5977113fc135dd4bbe6608b0502999",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/final_submission_closure/trajectories/F1/P2_T475_pattern4_main.mat",
+      "source_sha256": "b16f97f4a8a134809bf05384857b4f96c27ad378637ac0bcad21a91a16a39f57",
+      "package_file": "data/records/output/final_submission_closure/trajectories/F1/P2_T475_pattern4_main.mat",
+      "package_sha256": "a1df7d5f309394d5d29b33198b367633a75dd44c466161c786695ab3dd694ee8",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/fade_independence/raw/F1/dynamic/P2_T475_pattern4_main.mat",
+      "source_sha256": "9cb3288d036de28585fb4582e22f1b01fc5793a74ad62de26f348b2060044412",
+      "package_file": "data/records/output/fade_independence/raw/F1/dynamic/P2_T475_pattern4_main.mat",
+      "package_sha256": "09c444d9b4f13d4743beec61736a3fcba86d145ebd73d9525de080498269cd8b",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/final_submission_closure/trajectories/F1/P4_T475_pattern1_main.mat",
+      "source_sha256": "c33514e3ff460ca6f57c68aaad01c37e236de23ffaacb62c1d295cc43d0a19a9",
+      "package_file": "data/records/output/final_submission_closure/trajectories/F1/P4_T475_pattern1_main.mat",
+      "package_sha256": "171d70877c1d3063965bd2fa68c7a81c5246842e7729d1ada346b248baf961a7",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/fade_independence/raw/F1/dynamic/P4_T475_pattern1_main.mat",
+      "source_sha256": "4d5c84e6f0d1c4ab50829f87413c35eeadfa2d9b2445b6bcebd45abeb2cff536",
+      "package_file": "data/records/output/fade_independence/raw/F1/dynamic/P4_T475_pattern1_main.mat",
+      "package_sha256": "f55ac63013ec2b616016e1193725a10effb15c6094384560185c0bc2bbdf566e",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/final_submission_closure/trajectories/F1/P4_T475_pattern2_main.mat",
+      "source_sha256": "ef7c7ce94416496c47c4319ec14bbf57e89429b4266c4a69f309e014dd5c1095",
+      "package_file": "data/records/output/final_submission_closure/trajectories/F1/P4_T475_pattern2_main.mat",
+      "package_sha256": "dece28d81f208817bf204ca4abe447e273dc9595fbd6b41fff05a1621b21b5fa",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/fade_independence/raw/F1/dynamic/P4_T475_pattern2_main.mat",
+      "source_sha256": "72dba9bef65b9383bb711c685dcf5cffa4c30eef1df4d0f054c4484c50e45f00",
+      "package_file": "data/records/output/fade_independence/raw/F1/dynamic/P4_T475_pattern2_main.mat",
+      "package_sha256": "a230264d7271a6825d68d9e62dd41465d05c924fe23ffa94d4fe084b9d7ea6c2",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/final_submission_closure/trajectories/F1/P4_T475_pattern3_main.mat",
+      "source_sha256": "53f55443479f70f96dd43d8c40da45cddd7299ad13f253f7c7b0a7dc026e5209",
+      "package_file": "data/records/output/final_submission_closure/trajectories/F1/P4_T475_pattern3_main.mat",
+      "package_sha256": "7aad6ad7c4808c83abc40096417b80c5588c0736efdd5d26133d38065c715a0f",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/fade_independence/raw/F1/dynamic/P4_T475_pattern3_main.mat",
+      "source_sha256": "a46bf8d99b1ae449547de4916737fac6ae73d1f7fe2d60aca16cd154ad433884",
+      "package_file": "data/records/output/fade_independence/raw/F1/dynamic/P4_T475_pattern3_main.mat",
+      "package_sha256": "b63e039e86009e3a418602c8cd28d6af0e92a23499a502588b686e477b648e9a",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/final_submission_closure/trajectories/F1/P4_T475_pattern4_main.mat",
+      "source_sha256": "9f5d1ff228b477ba6c089db3747c3b999b339f4447e025d24390cd0a08962725",
+      "package_file": "data/records/output/final_submission_closure/trajectories/F1/P4_T475_pattern4_main.mat",
+      "package_sha256": "2534851bb3d8ad546d896cc037f14b40845b27122dc26046a17c3e2ee78141c5",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/fade_independence/raw/F1/dynamic/P4_T475_pattern4_main.mat",
+      "source_sha256": "84d7d0f58d2e42559134dc380c2b6a37307b2ae512040c58371a2f8bd4a5c822",
+      "package_file": "data/records/output/fade_independence/raw/F1/dynamic/P4_T475_pattern4_main.mat",
+      "package_sha256": "e234874be4c456cd04efecea4a19b636210d17edcc84536a95aead0d992fdb76",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/raw/dynamic/P3_T475_pattern2_main.mat",
+      "source_sha256": "f2f4c45fbb005bada2ee520bfd7063b169ee8e7b722db44e35101acebfa59797",
+      "package_file": "data/records/output/thermal_authority/raw/dynamic/P3_T475_pattern2_main.mat",
+      "package_sha256": "96fc641549520a09384e6c5405ffc3d1e4e35feb89d6e97b07e88f197e037643",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/raw/dynamic/P3_T475_pattern3_main.mat",
+      "source_sha256": "018b16dbd674d9c6fe74a9ecd47ee6f64c7718ff0459dfdcbab43213a0db4872",
+      "package_file": "data/records/output/thermal_authority/raw/dynamic/P3_T475_pattern3_main.mat",
+      "package_sha256": "b07eb326fd3e9309d6283947ec3727c1178216744d66c7d94b7ddfccc1938ae0",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/lumped_dynamic/P3_T475_main.mat",
+      "source_sha256": "a5767913f0fd7b0fb7f18c20c6957884e03bb18403e0007ca9a4169b9b27db25",
+      "package_file": "data/records/output/thermal_authority/lumped_dynamic/P3_T475_main.mat",
+      "package_sha256": "3c2149b222d5223981b0881a57129993f223d0d3e54aeafbd4066d5232c7d4a6",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/raw/dynamic/P4_T475_pattern2_main.mat",
+      "source_sha256": "51862aecbf86788765886575bc99476de84e62f320cb54f6e7cd1ffcc77f5a98",
+      "package_file": "data/records/output/thermal_authority/raw/dynamic/P4_T475_pattern2_main.mat",
+      "package_sha256": "52ac5ccc453b3a226192ac8563184d94b2a6373fb416617957817fd40bac7db6",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/raw/dynamic/P4_T475_pattern3_main.mat",
+      "source_sha256": "b43b647875aa5cc318a4f4b173e0edb8ae392e8b79bb253c1bfd379c736174e7",
+      "package_file": "data/records/output/thermal_authority/raw/dynamic/P4_T475_pattern3_main.mat",
+      "package_sha256": "04aa234d2c1c29cd93c39e36110a64e2780e52f806fb2e68dbb6c005915a4526",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/lumped_dynamic/P4_T475_main.mat",
+      "source_sha256": "1d3f13b1647916214dae0c11a54769e2dd1e27e46aa470127b1c6409233462a3",
+      "package_file": "data/records/output/thermal_authority/lumped_dynamic/P4_T475_main.mat",
+      "package_sha256": "adbc6ff01f2772eedca28a5b2d4111b338d50b0de05788e7b59c1fa2b2a1b92e",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P1_T400_pattern1.mat",
+      "source_sha256": "6688bc11d02b1731ebd828a0f96d1c396d998d9b20324c18bc71cc4f270b4b7b",
+      "package_file": "data/records/output/thermal_authority/feasibility/P1_T400_pattern1.mat",
+      "package_sha256": "6f03d0849025fe1cd55b884bdec7c2c492174b57a87481a967829c2ff1c7a6b7",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P1_T400_pattern2.mat",
+      "source_sha256": "f8f41c9b6b01b170fecd009515868f501aecfcb349d91423a2c193bcf933e9c9",
+      "package_file": "data/records/output/thermal_authority/feasibility/P1_T400_pattern2.mat",
+      "package_sha256": "2016325430be1d087ca99420cdf59fc5fedb07b9e5b996eb025fa62f858f680c",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P1_T400_pattern3.mat",
+      "source_sha256": "075cd365b1551feda9c3413bd7fb3f557aab714d3ea0895e8ea4295469bf6f86",
+      "package_file": "data/records/output/thermal_authority/feasibility/P1_T400_pattern3.mat",
+      "package_sha256": "f8a5cf7905fb72e11e86fc4ddada628cda1328e1572de1882db420a496ac4ecc",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P1_T400_pattern4.mat",
+      "source_sha256": "1ef4aacd8afb0ee376e1e34bad076e565a76974ed04350edeef2fb2ae987e1c8",
+      "package_file": "data/records/output/thermal_authority/feasibility/P1_T400_pattern4.mat",
+      "package_sha256": "c8e16f35f7209eb460a52b31618a2fabfbcc4061e88c5f95eaede83c5490dde7",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P1_T475_pattern1.mat",
+      "source_sha256": "9ef00f99df1ca776527c3db0d9b7bfe66ce4b434fe4928495bbd80e560f61a48",
+      "package_file": "data/records/output/thermal_authority/feasibility/P1_T475_pattern1.mat",
+      "package_sha256": "e9a1f7dba350f65a56b0d50b0f8ff964d52f28738403f5086dbb528133c3b57b",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P1_T475_pattern2.mat",
+      "source_sha256": "17fcd8fb6e7456649bca9dd5b448462876bffcbf8a9512784e2d35e1821afece",
+      "package_file": "data/records/output/thermal_authority/feasibility/P1_T475_pattern2.mat",
+      "package_sha256": "cf37afac0665d62c97e074e9d55e9447ec1dd549737a73ed75a1359e7dbf3a18",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P1_T475_pattern3.mat",
+      "source_sha256": "08d92ce24eb120ec0e58c630bb6b23b8b32e1f4146a9273cb27a3a537ccd41cc",
+      "package_file": "data/records/output/thermal_authority/feasibility/P1_T475_pattern3.mat",
+      "package_sha256": "2c4d469df37031cd23149a910bec9de54e4d41d11debcfbdf768ee6a1441c534",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P1_T475_pattern4.mat",
+      "source_sha256": "d952b23422211cea9708bfa4d66bccd888807746be14c834e62d4ecc8c02a379",
+      "package_file": "data/records/output/thermal_authority/feasibility/P1_T475_pattern4.mat",
+      "package_sha256": "7215daa9bf7313d78119c6e9c1ed8048c50114fb8276cc0503faac1aa26ecb95",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P1_T550_pattern1.mat",
+      "source_sha256": "54d200677cd5567681427f1468e177942d200c2fbf70bd31d648f688d2ab924a",
+      "package_file": "data/records/output/thermal_authority/feasibility/P1_T550_pattern1.mat",
+      "package_sha256": "177b12b3eb279fda662b2f9a2587dc7b598d3e569f9bab22219790f7df83c7bb",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P1_T550_pattern2.mat",
+      "source_sha256": "2aa91132382f5029be141913835349ceebc1ce286368c3ed294d25ea206e88f4",
+      "package_file": "data/records/output/thermal_authority/feasibility/P1_T550_pattern2.mat",
+      "package_sha256": "721a0316913594ac305aae85a33470d1296bd5e3dfc23b20c971f602bc4a39b8",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P1_T550_pattern3.mat",
+      "source_sha256": "47f5ab135106eb417c66044895bf72516de6d3008dac15b0cfbd2da7f0f87d06",
+      "package_file": "data/records/output/thermal_authority/feasibility/P1_T550_pattern3.mat",
+      "package_sha256": "ab4de99094d6f848eae1d5b7114c12dfcb0766d230db88e8bec32209a12e4b91",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P1_T550_pattern4.mat",
+      "source_sha256": "0bc58a79a460984225be0b6f0716b8ee0a8283085730b65f4688d27746c8558f",
+      "package_file": "data/records/output/thermal_authority/feasibility/P1_T550_pattern4.mat",
+      "package_sha256": "4773fb4fedb1838b85d89145672abbcf1524bf7a99623be3bb121f58d156ea60",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P2_T400_pattern1.mat",
+      "source_sha256": "306b40a78d9e1056c182572b7a18e6b369a3a8746f645c4ce2dca058ffacda32",
+      "package_file": "data/records/output/thermal_authority/feasibility/P2_T400_pattern1.mat",
+      "package_sha256": "2c38972644a60bbb7facf54d7505cfd75dc0612ab3913b83133c92ec37663e54",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P2_T400_pattern2.mat",
+      "source_sha256": "110094223fb9cfdb99a2dd0e2cde8806d45185f5acc4d9b323517ff6ea176f35",
+      "package_file": "data/records/output/thermal_authority/feasibility/P2_T400_pattern2.mat",
+      "package_sha256": "780ca2b556b25111ac05ea3e94ee55bcad961511fab468487d2b27d493635c35",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P2_T400_pattern3.mat",
+      "source_sha256": "4de4e99aabff545ebdff0026f058348c8df528265aef54c949e787f2f5c0c628",
+      "package_file": "data/records/output/thermal_authority/feasibility/P2_T400_pattern3.mat",
+      "package_sha256": "67b8d77bd098e4cb16b58ca70e1daf2f37b99ae6d9b4f5788b74bf135b173289",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P2_T400_pattern4.mat",
+      "source_sha256": "3e5d653c1763ac9dfe4b34a84c88bfcfcc3568a22afb47ee45d1e89ac5703573",
+      "package_file": "data/records/output/thermal_authority/feasibility/P2_T400_pattern4.mat",
+      "package_sha256": "be6ea68b636ce941eb60677ce99a7dfe9dd34c8ee29122a3f5788ad15efcf166",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P2_T475_pattern1.mat",
+      "source_sha256": "fb3ff5b8d8d4222ecc72d6e3f30c955aadb0d6c3d67fdcb71f6b94f77e84883b",
+      "package_file": "data/records/output/thermal_authority/feasibility/P2_T475_pattern1.mat",
+      "package_sha256": "62e92ca5908d03c2e18d50159e993c26ad2755fe49662e266a63b365da42dc83",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P2_T475_pattern2.mat",
+      "source_sha256": "d4786065abbdd941a879ab85a3220f6b5cf4d5a2da410c7fc9959ca6d361c1c8",
+      "package_file": "data/records/output/thermal_authority/feasibility/P2_T475_pattern2.mat",
+      "package_sha256": "dd87bc4855b804e0d8d6c3ec8057fa56b803efc4aa666286ef6110367edb28b3",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P2_T475_pattern3.mat",
+      "source_sha256": "4c4a08f2f3b91d8e80de6808ba9f0f51ba1ae66a6cddf2bf79f9db1c2573f289",
+      "package_file": "data/records/output/thermal_authority/feasibility/P2_T475_pattern3.mat",
+      "package_sha256": "a357fdb0defe421a8befa02768fd6fdf7a7cbed3449dc526b9e341473416c80e",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P2_T475_pattern4.mat",
+      "source_sha256": "761cae2247c64de64e4db7d0d05d94958e415a7be7020278d1636c0b5aa477f2",
+      "package_file": "data/records/output/thermal_authority/feasibility/P2_T475_pattern4.mat",
+      "package_sha256": "313be62f07d3999ec4df6f477f66b47b780d3f993fe65af3ae7e428ef8f8a7f1",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P2_T550_pattern1.mat",
+      "source_sha256": "61f74971173464a50e77a70882b33c33fdfb9351298e9a163e47cba851824a2d",
+      "package_file": "data/records/output/thermal_authority/feasibility/P2_T550_pattern1.mat",
+      "package_sha256": "0a07163f4938c5d61aa72494c937f7d0149603550c31ff9139a37c800cb5e809",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P2_T550_pattern2.mat",
+      "source_sha256": "cc731f4bb85d830b2d806f3245b743e5f5e53eb43f3a21de3324439b5c7b5f5f",
+      "package_file": "data/records/output/thermal_authority/feasibility/P2_T550_pattern2.mat",
+      "package_sha256": "16e9739a2c59a9cc0d4625093b2f9ac70fd3a03e392254e0b3846e6d217008e8",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P2_T550_pattern3.mat",
+      "source_sha256": "d011c54be9a3fc92691bda962ecbe91fa5431233ca3216d88f4fe463ec67c752",
+      "package_file": "data/records/output/thermal_authority/feasibility/P2_T550_pattern3.mat",
+      "package_sha256": "733d4eb8204f79982f4ca609055afc29d35765cb1187b2cacb5a30271a43f339",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P2_T550_pattern4.mat",
+      "source_sha256": "ae039ef04dcd94228593b4392ade51b1ffe5d70d135001b40b1dd03ef53c794f",
+      "package_file": "data/records/output/thermal_authority/feasibility/P2_T550_pattern4.mat",
+      "package_sha256": "c8dd3003a396e7d7367b2ebe7c2ab2b40c662c927611627d1feca86036bb581d",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P3_T400_pattern1.mat",
+      "source_sha256": "ce808c2511dd5e5111a2a2228e02fe4d6311aa5d92ed1343952de7baeb06fdac",
+      "package_file": "data/records/output/thermal_authority/feasibility/P3_T400_pattern1.mat",
+      "package_sha256": "224cf4a75fcb92789f580aaf437a86da685ebc12bec85b4d7646585814f4962d",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P3_T400_pattern2.mat",
+      "source_sha256": "4d019693c8a4de43df86f7c32c3752e2292a11dcc85833399711025089a8558d",
+      "package_file": "data/records/output/thermal_authority/feasibility/P3_T400_pattern2.mat",
+      "package_sha256": "643348bb815786f11666f25f2a94eec9e2f44cd62db5d0828e0482df4ee53b69",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P3_T400_pattern3.mat",
+      "source_sha256": "f0e2103d743b26e0cade950b9ff1fd94076d0bcea450507cf06e7c4775736770",
+      "package_file": "data/records/output/thermal_authority/feasibility/P3_T400_pattern3.mat",
+      "package_sha256": "dd5e50214c70707af9d5760f824a010ca36c6e9ec25dce93053e96fe26799482",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P3_T400_pattern4.mat",
+      "source_sha256": "0d54197d76faf2f8cda14153165dba8d2aeb250084509345db8eb4c4ec080682",
+      "package_file": "data/records/output/thermal_authority/feasibility/P3_T400_pattern4.mat",
+      "package_sha256": "f50467bc1c3f69913098e1e814b2af9dd4103d20e39d499fe7303ff508993e82",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P3_T475_pattern1.mat",
+      "source_sha256": "750a48c1ac73cc3213a8acb688191773454f964e454e7a452db48c1457d8c243",
+      "package_file": "data/records/output/thermal_authority/feasibility/P3_T475_pattern1.mat",
+      "package_sha256": "f80ca268f68be0eca9e0eaf24a9009f9c80154f0037e1178a08fb353e0c5af0b",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P3_T475_pattern2.mat",
+      "source_sha256": "f7d7ac3cee818d1d91b5c39e630de5b6ab5c4314cd63e22842592d582f361345",
+      "package_file": "data/records/output/thermal_authority/feasibility/P3_T475_pattern2.mat",
+      "package_sha256": "bd731ce417119f44645731d23b28442bf4fe45d94efca8c49602b173d2ac236c",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P3_T475_pattern3.mat",
+      "source_sha256": "7852fd00fff79000e0dbecbc24bed923db98611c6778498038a149cd5420eec7",
+      "package_file": "data/records/output/thermal_authority/feasibility/P3_T475_pattern3.mat",
+      "package_sha256": "63942316e8a2ff1a87b912dd982aa9711a6707fbf2b7c371e6afd666624213e1",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P3_T475_pattern4.mat",
+      "source_sha256": "d48879e38872e4b49060f5230220b54842c286e7cbdb362a79e1da96b1fce1b2",
+      "package_file": "data/records/output/thermal_authority/feasibility/P3_T475_pattern4.mat",
+      "package_sha256": "c7249b9fea30820f52132e9bcee5677a2f22c56e15d5f9c2c48bb63da7dc22e3",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P3_T550_pattern1.mat",
+      "source_sha256": "42d360936d76d0178bd2e9e2890bffb396ee4126b9673f894eda168e5e81d02b",
+      "package_file": "data/records/output/thermal_authority/feasibility/P3_T550_pattern1.mat",
+      "package_sha256": "8afecd78900b2d7aea1210d34e9bdf37fdd3a58559e9e22fc44bedc6e63f1339",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P3_T550_pattern2.mat",
+      "source_sha256": "5a168f9e5f740d33c2ee9568cb6bd214564d6ebad39e9a0d4a07ff0e03253d6e",
+      "package_file": "data/records/output/thermal_authority/feasibility/P3_T550_pattern2.mat",
+      "package_sha256": "e1606b261e6a70ce38b43aeb995f39d451c3736d6fe8d29ca578e1d5ae478b4b",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P3_T550_pattern3.mat",
+      "source_sha256": "c81dc804e7c54a4d7b3fa4d1980128ae464b76bfcdcff6d2568d0366d5f28772",
+      "package_file": "data/records/output/thermal_authority/feasibility/P3_T550_pattern3.mat",
+      "package_sha256": "7151b42063fa8ed682eabe97ada0563dc3c0321f64e44305d4e1d762b4bbe008",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P3_T550_pattern4.mat",
+      "source_sha256": "f68d0b93046641aa66e60efeff5b33b6d8edb31dba6fd268472f6af0676213a1",
+      "package_file": "data/records/output/thermal_authority/feasibility/P3_T550_pattern4.mat",
+      "package_sha256": "b58ef806de27c41ad7dfa1ff2f9c9bb4d217f2e089e75712f824ea994160cb26",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P4_T400_pattern1.mat",
+      "source_sha256": "530b2defdde1c438a4c79cb242d40d8bc7b0e3073c21a00282a5a471e5fa52f9",
+      "package_file": "data/records/output/thermal_authority/feasibility/P4_T400_pattern1.mat",
+      "package_sha256": "eff393e242d12b2be4ddaf46f7defd439a7eae7888f51a07a0be4fd4eb2ecbe1",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P4_T400_pattern2.mat",
+      "source_sha256": "85f04340fdff316e6f17617ea0155dc615763bd4f84899f05065265930c57b57",
+      "package_file": "data/records/output/thermal_authority/feasibility/P4_T400_pattern2.mat",
+      "package_sha256": "9ab6f8f903ea8367d985fa491cb1604b9cfb868ba41e3f6d4fd73d4f8af2fa08",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P4_T400_pattern3.mat",
+      "source_sha256": "22a9b5f2ab0ab8212db79f14b228658e66d3aa35941c277c63f0efda1e8cde15",
+      "package_file": "data/records/output/thermal_authority/feasibility/P4_T400_pattern3.mat",
+      "package_sha256": "d81525181c200d1cba38f749e8ebfb76073f8b18e06b94b2c07b0005e57f6fe2",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P4_T400_pattern4.mat",
+      "source_sha256": "cee6b86ac394dde48ce71d1a9fb2c66564d9a823047c3d736ac5fa97bbe47473",
+      "package_file": "data/records/output/thermal_authority/feasibility/P4_T400_pattern4.mat",
+      "package_sha256": "0b7027b7007825f7c98574da4a48911b4053f5b7d689a8dde5cda947efe86367",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P4_T475_pattern1.mat",
+      "source_sha256": "a8091bb12837c75df21abcde65d43f12f15a7a1d5ca9577fe488d7c33274e555",
+      "package_file": "data/records/output/thermal_authority/feasibility/P4_T475_pattern1.mat",
+      "package_sha256": "5deec6a360e89c1a02518f803aead1b891e80621fe38e4cf19760080b700ab22",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P4_T475_pattern2.mat",
+      "source_sha256": "6aa5b73c201742c91eeab36899ec46d645b9c0db69e69486919f10a57c16b353",
+      "package_file": "data/records/output/thermal_authority/feasibility/P4_T475_pattern2.mat",
+      "package_sha256": "002e3e0bb020c7d85c3a77f65e5f28d40772f7aa42ea78f71fc5794f67d41f3e",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P4_T475_pattern3.mat",
+      "source_sha256": "d8c86b6eba6516d982f849f9a8e4d39b9cac2e72b59ec186b639e8ab6256822d",
+      "package_file": "data/records/output/thermal_authority/feasibility/P4_T475_pattern3.mat",
+      "package_sha256": "a12829ca8020ad50e623605737f78fed3eef639b6d1b48ad5a9f389e0282c5a6",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P4_T475_pattern4.mat",
+      "source_sha256": "2fb6cd8cc58c9a4c145bd94bef18eb1b9d05f62ddc1eec001b0e757a6f576441",
+      "package_file": "data/records/output/thermal_authority/feasibility/P4_T475_pattern4.mat",
+      "package_sha256": "a965b64f0ac56bb52d3ead8ef0eea30390f8a403e58f412a281088f2d4645563",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P4_T550_pattern1.mat",
+      "source_sha256": "d80288a9b323861ee929b53651cafa0f74948f24e93231cf825d3648ab0e7e38",
+      "package_file": "data/records/output/thermal_authority/feasibility/P4_T550_pattern1.mat",
+      "package_sha256": "3c762c6f62aca0b100142183bff4180ba687b6630f54fb8d4589474ebbd0e1cd",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P4_T550_pattern2.mat",
+      "source_sha256": "ad78c11f1d5af8b7b748f5c7779b76ad802efd1496d77c0e9079a85005088ef7",
+      "package_file": "data/records/output/thermal_authority/feasibility/P4_T550_pattern2.mat",
+      "package_sha256": "fbd7192dc6b2cf420df16c1bb7e6265eca89312cfb97c708e5714a9efaa9390f",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P4_T550_pattern3.mat",
+      "source_sha256": "85079bd8b0e56f4c849a7a8d98da9ec01bb0cb5af0cdfccef52c3fffc3ef5b21",
+      "package_file": "data/records/output/thermal_authority/feasibility/P4_T550_pattern3.mat",
+      "package_sha256": "1ffb68a38e4d412332eb90db35bff8bb8537f30215ae42942ec36e1150e9e19e",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P4_T550_pattern4.mat",
+      "source_sha256": "58925d62962d03290ccda1374f6ce1ca061dacfd58c8d09dddc9e86847e4a45f",
+      "package_file": "data/records/output/thermal_authority/feasibility/P4_T550_pattern4.mat",
+      "package_sha256": "7b6ab663d3d0df20b079bafbc41b6e200fc7de1a84e4e9f406cb522cf04afa1c",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P5_T400_pattern1.mat",
+      "source_sha256": "3b85316f6acfdaa4cd4e2a87b4208c911d0e065cb3c0628dc6fa3ae53909ceb2",
+      "package_file": "data/records/output/thermal_authority/feasibility/P5_T400_pattern1.mat",
+      "package_sha256": "a3742909e0c902ecdca3caa7a80b516dd73c36dd6657f65de3e0a05b7557a0c5",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P5_T400_pattern2.mat",
+      "source_sha256": "945388d890cf064ff942a148e419a4b093a7f4be7f8c613cfd147276737be95d",
+      "package_file": "data/records/output/thermal_authority/feasibility/P5_T400_pattern2.mat",
+      "package_sha256": "a1da3f1bfc0a2febb1e269ac377279f5be4212cd889564d8c80844ed810682b5",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P5_T400_pattern3.mat",
+      "source_sha256": "f1ecc6a7c1c944a4c3bb6380453ef7ece65ab211ebfece0c7e7598bf5d1ba4b7",
+      "package_file": "data/records/output/thermal_authority/feasibility/P5_T400_pattern3.mat",
+      "package_sha256": "f62d7526e687a854bbbf3644306c901f5eeda527a8a9646d2886c9456b20fe6a",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P5_T400_pattern4.mat",
+      "source_sha256": "9dbd927c3bdca308513defb6faf54bc38abaca9cef868150df599165574ed0f9",
+      "package_file": "data/records/output/thermal_authority/feasibility/P5_T400_pattern4.mat",
+      "package_sha256": "c1a1db77278b9aa4b7b3c182dcd4547774616eeeeed6647a19caacbc18cb8406",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P5_T475_pattern1.mat",
+      "source_sha256": "dc33b62ae50fdbfced9577b25f2e0d226d1c7cda779126f076d83a90ace70e92",
+      "package_file": "data/records/output/thermal_authority/feasibility/P5_T475_pattern1.mat",
+      "package_sha256": "63046973310356659c9065291021112ef2d2b486c1578bafd957495b6670a957",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P5_T475_pattern2.mat",
+      "source_sha256": "5a270ad059299c8a66b904afb96c99d5afe26ea4f8b3cd46f79b0ee15e0b43e1",
+      "package_file": "data/records/output/thermal_authority/feasibility/P5_T475_pattern2.mat",
+      "package_sha256": "b7fd11b53dbc8e92b4e9ddb0eed5c2f3508eb5f8d00821d97460ecbc493d1d53",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P5_T475_pattern3.mat",
+      "source_sha256": "d34f4b55daf71315975a7be5bca4faefa5c28a78305dd6c47ddfacbfb1f88cd2",
+      "package_file": "data/records/output/thermal_authority/feasibility/P5_T475_pattern3.mat",
+      "package_sha256": "918abbb651f983cfb84439ab0f73a32b2b1190d714aeac8d07389bc79b77f179",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P5_T475_pattern4.mat",
+      "source_sha256": "692e1c2af3de81948ce7b03a8c2bb35e7c62d8f452000ec878bfc5f7cde0ceb3",
+      "package_file": "data/records/output/thermal_authority/feasibility/P5_T475_pattern4.mat",
+      "package_sha256": "4e2528bd7bf114c1333d1a15b90ef31804c345100fc7e039f5662572c7ad88a9",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P5_T550_pattern1.mat",
+      "source_sha256": "955f0fad2b9aa4c62db83b0623f2f5ee382d91d5cfd618ba243c885316b0972e",
+      "package_file": "data/records/output/thermal_authority/feasibility/P5_T550_pattern1.mat",
+      "package_sha256": "7010eaa057fa620e598ee04279b1a5dcb1cff6da1bbf24f6db1876bead22c9fa",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P5_T550_pattern2.mat",
+      "source_sha256": "c26d13c7fb93df88037e2996ae086c623f15447d2fcdad83da016c6b12341bff",
+      "package_file": "data/records/output/thermal_authority/feasibility/P5_T550_pattern2.mat",
+      "package_sha256": "15c89594d5c52a16dac934f30d716044d6c2fc9df07500112524f9e3b420a2cc",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P5_T550_pattern3.mat",
+      "source_sha256": "0b23bc6faf8a6305c0e9d0954a8b1c55471538271ef98b989542cea5fb30c2f6",
+      "package_file": "data/records/output/thermal_authority/feasibility/P5_T550_pattern3.mat",
+      "package_sha256": "4de23343288b95e5dd3a4d1c427f0d3234e1f0f7a91cb6d288accd02bd840148",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P5_T550_pattern4.mat",
+      "source_sha256": "a0deb3dcc4c089d5533b5c1c8f76e9d5e5b06aaa34c851c224c8bacccc40a545",
+      "package_file": "data/records/output/thermal_authority/feasibility/P5_T550_pattern4.mat",
+      "package_sha256": "09f33ae34f30ff56841410139afc8f5ea17ac969fe9ea02de213656f8957ba23",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P6_T400_pattern1.mat",
+      "source_sha256": "28da9a39381a1d1bfc4b38ded08db69d874c1ffa1dd8a3dd8dfed1502a48443d",
+      "package_file": "data/records/output/thermal_authority/feasibility/P6_T400_pattern1.mat",
+      "package_sha256": "b253c4ab513e78c86390a6027a573e3d53803ec0d1350a3c647362b48d8e2694",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P6_T400_pattern2.mat",
+      "source_sha256": "4c144b723a609d94c46035b8ba702edaed1b53cc08eaca8490166a48826dd10a",
+      "package_file": "data/records/output/thermal_authority/feasibility/P6_T400_pattern2.mat",
+      "package_sha256": "5763a92c7e7a22dc97ae2de0c3f7be9c9a8242c4fcb79cfbf739d982efafa71b",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P6_T400_pattern3.mat",
+      "source_sha256": "c043189d840b0ff60b6a787ae1df908ba050d1fd3620ccc92f6f6999776bb752",
+      "package_file": "data/records/output/thermal_authority/feasibility/P6_T400_pattern3.mat",
+      "package_sha256": "d8208a67063b75ab506bb0d74955882b1939e853672f49e62b1a673d61a41b98",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P6_T400_pattern4.mat",
+      "source_sha256": "bb786a1587c2d681910a483c6ae8e292881ffac9292565f770b3a32a2d2a9159",
+      "package_file": "data/records/output/thermal_authority/feasibility/P6_T400_pattern4.mat",
+      "package_sha256": "ed55c5de76bcec04638be13ba8363b10d9c23a4248c0948db0de1996e444c552",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P6_T475_pattern1.mat",
+      "source_sha256": "21a146c7efc406971ed40f0c51fb58826f19581b2ef6fad14e8982c01beae81a",
+      "package_file": "data/records/output/thermal_authority/feasibility/P6_T475_pattern1.mat",
+      "package_sha256": "1875f94e8c55f3a4a02df1195e16f5450b3df924405dfa8281f797d2f8ff9d53",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P6_T475_pattern2.mat",
+      "source_sha256": "a273bc3d47e633d0452e9e5c775ce10d247dc46c08c837a44e1446bf5ae0c8eb",
+      "package_file": "data/records/output/thermal_authority/feasibility/P6_T475_pattern2.mat",
+      "package_sha256": "2765e05b3ade3de27c586258407b533ebd05f93586f7e5e28c2e3036debed568",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P6_T475_pattern3.mat",
+      "source_sha256": "6678785b73682516388b143fa9ff8fbb7f8cd15dfc62bbe831983aa55a32f0d4",
+      "package_file": "data/records/output/thermal_authority/feasibility/P6_T475_pattern3.mat",
+      "package_sha256": "f37630477f0cede9f6659ade20e832461a8fa9e7b6885afb40342c97c9a5d20d",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P6_T475_pattern4.mat",
+      "source_sha256": "49bca99e792c8688d6254b7721d50d1d18e179d2be021f7fe797cbc9137c25e7",
+      "package_file": "data/records/output/thermal_authority/feasibility/P6_T475_pattern4.mat",
+      "package_sha256": "cacc7aa9abe92a8d1d6f0bdb6eafa0baed35bf56343031ac7d9af42f187bbbcd",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P6_T550_pattern1.mat",
+      "source_sha256": "983399aee7e8ddcd4e48f86ecdb4a6d2701e7b44cd094cc70993df76e335933d",
+      "package_file": "data/records/output/thermal_authority/feasibility/P6_T550_pattern1.mat",
+      "package_sha256": "658a6692d11c0f29ad746023151b26114a22b097a19308bad2ea91044fa1dfd7",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P6_T550_pattern2.mat",
+      "source_sha256": "b1fb1d44cbc7fef6f6c6624e3f7b35ef4d7ceecd7614cbaf01e182433737ae66",
+      "package_file": "data/records/output/thermal_authority/feasibility/P6_T550_pattern2.mat",
+      "package_sha256": "8685cd529225e165c0c070c5c277074234baf5f4a15ef3b9bc0ce99c294e40be",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P6_T550_pattern3.mat",
+      "source_sha256": "d5558f4e64fb041d0b00409ae827fae72dcf714c4c8577134260c02d360be2dc",
+      "package_file": "data/records/output/thermal_authority/feasibility/P6_T550_pattern3.mat",
+      "package_sha256": "1fda44688f0611a714aab566b547a9a6f3c383427b389b3a93386c7a58215624",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/feasibility/P6_T550_pattern4.mat",
+      "source_sha256": "528db27a4f72b5fe7555ab7571d6498d75d68e194160cb99409567cff040c2c8",
+      "package_file": "data/records/output/thermal_authority/feasibility/P6_T550_pattern4.mat",
+      "package_sha256": "3c8774700d4935286ac241e639216152be5e7742e5c2978f26764153f0a45ca9",
+      "transformation": "Lossless selected-field MAT export; MATLAB handles, opaque workspace and unused fields omitted; retained values checked exactly"
+    },
+    {
+      "source": "reproducibility_archive/src/no_lab/hfVectorField.m",
+      "source_sha256": "7bc024f5ecf9b5a73138d1d1e9df4ea13226d2e2bda1e029bcb6b3f60caa0930",
+      "package_file": "reference_model/matlab/hfVectorField.m",
+      "package_sha256": "7bc024f5ecf9b5a73138d1d1e9df4ea13226d2e2bda1e029bcb6b3f60caa0930",
+      "transformation": "Byte-identical reference model/integrator; not invoked by Python reproduction"
+    },
+    {
+      "source": "reproducibility_archive/simulation/closureTrajectoryIntegrate.m",
+      "source_sha256": "92f29d5958e409fb28081d599998c1966e2901bfa21b7c8a2c73ac1d4430a066",
+      "package_file": "reference_model/matlab/closureTrajectoryIntegrate.m",
+      "package_sha256": "92f29d5958e409fb28081d599998c1966e2901bfa21b7c8a2c73ac1d4430a066",
+      "transformation": "Byte-identical reference model/integrator; not invoked by Python reproduction"
+    },
+    {
+      "source": "reproducibility_archive/simulation/thermalAuthorityIntegrateLumped.m",
+      "source_sha256": "13224cb1ad9f5f96a79503ecba7b46137dff80a8e66f73d15e6d32068dbf32f7",
+      "package_file": "reference_model/matlab/thermalAuthorityIntegrateLumped.m",
+      "package_sha256": "13224cb1ad9f5f96a79503ecba7b46137dff80a8e66f73d15e6d32068dbf32f7",
+      "transformation": "Byte-identical reference model/integrator; not invoked by Python reproduction"
+    },
+    {
+      "source": "reproducibility_archive/output/thermal_authority/protocol.json",
+      "source_sha256": "ec9a5deb9207c23a060041ecc6bd2a16175d6c236096a3102158b0bb8ff94849",
+      "package_file": "docs/THERMAL_AUTHORITY_PROTOCOL.json",
+      "package_sha256": "ec9a5deb9207c23a060041ecc6bd2a16175d6c236096a3102158b0bb8ff94849",
+      "transformation": "Byte-identical frozen study protocol"
+    },
+    {
+      "source": "tools/make_figures.py",
+      "source_sha256": "695a5e6e8ee549df5e41b4ebdb59e60821e162d6442fb1a80667b954e5d63de0",
+      "package_file": "scripts/make_figures.py",
+      "package_sha256": "9d3dd6e70da5d4372d428149338a371a6aa02ef247dd003feda237f0ada39034",
+      "transformation": "Plotter adapted for portable input paths and separate outputs; calculations and figure content retained"
+    },
+    {
+      "source": "supplement/data/all_lumped.csv",
+      "source_sha256": "279409737e6acad1a1e1577fc28762820c57940bf8a060d046ad1a7c43ee5160",
+      "package_file": "data/tables/all_lumped.csv",
+      "package_sha256": "279409737e6acad1a1e1577fc28762820c57940bf8a060d046ad1a7c43ee5160",
+      "transformation": "Byte-identical frozen CSV"
+    }
+  ]
+}

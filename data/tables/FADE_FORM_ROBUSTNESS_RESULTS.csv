@@ -1,0 +1,9 @@
+﻿family,stage,qualifying_mirror_pairs,tested_mirror_pairs,mechanism_supported,min_distance_norm,max_distance_norm,max_error_norm,straight_mirror_max_error,all_samples_valid
+F0,local,0,36,False,0.0,0.0,1e-06,0.0,True
+F0,dynamic,0,36,False,0.0,0.0,1e-06,0.0,True
+F1,local,36,36,True,0.0017095281262821966,0.0038988821567092205,1e-06,0.0,True
+F1,dynamic,36,36,True,0.0029592653823325293,0.008716692217890072,1e-06,0.0,True
+F2,local,36,36,True,0.0016291079721999125,0.0027342690296731343,1e-06,0.0,True
+F2,dynamic,36,36,True,0.003309442998178921,0.005999473497667876,1e-06,0.0,True
+F3,local,36,36,True,0.0010462183686175193,0.003200789411777549,1e-06,0.0,True
+F3,dynamic,36,36,True,0.001998136175101802,0.006921248585346149,1e-06,0.0,True

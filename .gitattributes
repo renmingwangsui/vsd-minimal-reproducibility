@@ -1,0 +1,2 @@
+# Preserve exact input/manifest bytes across Windows and Linux checkouts.
+* -text

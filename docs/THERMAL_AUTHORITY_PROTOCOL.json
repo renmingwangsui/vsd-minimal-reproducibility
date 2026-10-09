@@ -1,0 +1,444 @@
+{
+  "version": "thermal-authority-1.0.0",
+  "created_time_utc": "2026-10-04T12:50:43.661233+00:00",
+  "scope": "Controller-disabled finite-horizon HF contact-force mechanism study. Not physical identification, exact continuous reachable set or statistical population trial.",
+  "state_points": [
+    {
+      "name": "load1_straight",
+      "speed": 10,
+      "curve_accel_over_g": 0,
+      "sample": {
+        "load_fraction": 0.75,
+        "track_over_width": 0.8,
+        "cg_over_track": 0.5,
+        "yaw_radius_over_wheelbase": 0.55,
+        "mu": 0.35,
+        "cornering_over_weight": 8.0,
+        "thermal_stop_rise_K": 100.0,
+        "friction_delay_s": 0.13999999999999999,
+        "friction_lag_s": 0.25,
+        "aux_delay_s": 0.19999999999999998,
+        "aux_lag_s": 0.4,
+        "fade_floor": 0.4,
+        "grade_rad": -0.025,
+        "curve_accel_over_g": 0.06,
+        "packet_age_s": 0.15,
+        "case_id": "NL301",
+        "split": "MECHANISM_CONTROLLED_SCENARIO"
+      },
+      "parameter_scope": "SCENARIO_DYNAMIC_PARAMETER; OEM reference scale and qualitative mechanism evidence only"
+    },
+    {
+      "name": "load1_curved",
+      "speed": 10,
+      "curve_accel_over_g": 0.06,
+      "sample": {
+        "load_fraction": 0.75,
+        "track_over_width": 0.8,
+        "cg_over_track": 0.5,
+        "yaw_radius_over_wheelbase": 0.55,
+        "mu": 0.35,
+        "cornering_over_weight": 8.0,
+        "thermal_stop_rise_K": 100.0,
+        "friction_delay_s": 0.13999999999999999,
+        "friction_lag_s": 0.25,
+        "aux_delay_s": 0.19999999999999998,
+        "aux_lag_s": 0.4,
+        "fade_floor": 0.4,
+        "grade_rad": -0.025,
+        "curve_accel_over_g": 0.06,
+        "packet_age_s": 0.15,
+        "case_id": "NL302",
+        "split": "MECHANISM_CONTROLLED_SCENARIO"
+      },
+      "parameter_scope": "SCENARIO_DYNAMIC_PARAMETER; OEM reference scale and qualitative mechanism evidence only"
+    },
+    {
+      "name": "load2_straight",
+      "speed": 15,
+      "curve_accel_over_g": 0,
+      "sample": {
+        "load_fraction": 0.875,
+        "track_over_width": 0.8,
+        "cg_over_track": 0.5,
+        "yaw_radius_over_wheelbase": 0.55,
+        "mu": 0.55,
+        "cornering_over_weight": 8.0,
+        "thermal_stop_rise_K": 100.0,
+        "friction_delay_s": 0.13999999999999999,
+        "friction_lag_s": 0.25,
+        "aux_delay_s": 0.19999999999999998,
+        "aux_lag_s": 0.4,
+        "fade_floor": 0.5,
+        "grade_rad": -0.045,
+        "curve_accel_over_g": 0.06,
+        "packet_age_s": 0.15,
+        "case_id": "NL303",
+        "split": "MECHANISM_CONTROLLED_SCENARIO"
+      },
+      "parameter_scope": "SCENARIO_DYNAMIC_PARAMETER; OEM reference scale and qualitative mechanism evidence only"
+    },
+    {
+      "name": "load2_curved",
+      "speed": 15,
+      "curve_accel_over_g": 0.06,
+      "sample": {
+        "load_fraction": 0.875,
+        "track_over_width": 0.8,
+        "cg_over_track": 0.5,
+        "yaw_radius_over_wheelbase": 0.55,
+        "mu": 0.55,
+        "cornering_over_weight": 8.0,
+        "thermal_stop_rise_K": 100.0,
+        "friction_delay_s": 0.13999999999999999,
+        "friction_lag_s": 0.25,
+        "aux_delay_s": 0.19999999999999998,
+        "aux_lag_s": 0.4,
+        "fade_floor": 0.5,
+        "grade_rad": -0.045,
+        "curve_accel_over_g": 0.06,
+        "packet_age_s": 0.15,
+        "case_id": "NL304",
+        "split": "MECHANISM_CONTROLLED_SCENARIO"
+      },
+      "parameter_scope": "SCENARIO_DYNAMIC_PARAMETER; OEM reference scale and qualitative mechanism evidence only"
+    },
+    {
+      "name": "load3_straight",
+      "speed": 20,
+      "curve_accel_over_g": 0,
+      "sample": {
+        "load_fraction": 1,
+        "track_over_width": 0.8,
+        "cg_over_track": 0.5,
+        "yaw_radius_over_wheelbase": 0.55,
+        "mu": 0.75,
+        "cornering_over_weight": 8.0,
+        "thermal_stop_rise_K": 100.0,
+        "friction_delay_s": 0.13999999999999999,
+        "friction_lag_s": 0.25,
+        "aux_delay_s": 0.19999999999999998,
+        "aux_lag_s": 0.4,
+        "fade_floor": 0.6,
+        "grade_rad": -0.065,
+        "curve_accel_over_g": 0.06,
+        "packet_age_s": 0.15,
+        "case_id": "NL305",
+        "split": "MECHANISM_CONTROLLED_SCENARIO"
+      },
+      "parameter_scope": "SCENARIO_DYNAMIC_PARAMETER; OEM reference scale and qualitative mechanism evidence only"
+    },
+    {
+      "name": "load3_curved",
+      "speed": 20,
+      "curve_accel_over_g": 0.06,
+      "sample": {
+        "load_fraction": 1,
+        "track_over_width": 0.8,
+        "cg_over_track": 0.5,
+        "yaw_radius_over_wheelbase": 0.55,
+        "mu": 0.75,
+        "cornering_over_weight": 8.0,
+        "thermal_stop_rise_K": 100.0,
+        "friction_delay_s": 0.13999999999999999,
+        "friction_lag_s": 0.25,
+        "aux_delay_s": 0.19999999999999998,
+        "aux_lag_s": 0.4,
+        "fade_floor": 0.6,
+        "grade_rad": -0.065,
+        "curve_accel_over_g": 0.06,
+        "packet_age_s": 0.15,
+        "case_id": "NL306",
+        "split": "MECHANISM_CONTROLLED_SCENARIO"
+      },
+      "parameter_scope": "SCENARIO_DYNAMIC_PARAMETER; OEM reference scale and qualitative mechanism evidence only"
+    }
+  ],
+  "temperature_levels_K": [
+    400,
+    475,
+    550
+  ],
+  "pattern_names": [
+    "UNIFORM",
+    "LEFT_HOT_RIGHT_COLD",
+    "LEFT_COLD_RIGHT_HOT",
+    "FRONT_REAR_ASYMMETRIC"
+  ],
+  "pattern_offsets": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      35,
+      -35,
+      35,
+      -35
+    ],
+    [
+      -35,
+      35,
+      -35,
+      35
+    ],
+    [
+      35,
+      35,
+      -35,
+      -35
+    ]
+  ],
+  "surface_patterns_only": true,
+  "core_temperature": "uniform same mean for every pattern",
+  "command_fractions": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      1.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+      1.0,
+      0.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      0.14649541676044464,
+      0.6115171639248729,
+      0.512869231402874,
+      0.3286140402778983
+    ],
+    [
+      0.5523855229839683,
+      0.3324274206534028,
+      0.041995241306722164,
+      0.5052532274276018
+    ],
+    [
+      0.7549308221787214,
+      0.8031642055138946,
+      0.8930329717695713,
+      0.04327156487852335
+    ],
+    [
+      0.4127616295590997,
+      0.015773680992424488,
+      0.42612611036747694,
+      0.8688289113342762
+    ],
+    [
+      0.26760037895292044,
+      0.9875457491725683,
+      0.15669602621346712,
+      0.9231617152690887
+    ],
+    [
+      0.9234761670231819,
+      0.2084098719060421,
+      0.6312016118317842,
+      0.22332916874438524
+    ],
+    [
+      0.626020991243422,
+      0.6791918594390154,
+      0.3116999799385667,
+      0.7007984723895788
+    ],
+    [
+      0.03386611305177212,
+      0.39175520092248917,
+      0.7744259368628263,
+      0.39892276655882597
+    ],
+    [
+      0.6115171639248729,
+      0.14649541676044464,
+      0.3286140402778983,
+      0.512869231402874
+    ],
+    [
+      0.3324274206534028,
+      0.5523855229839683,
+      0.5052532274276018,
+      0.041995241306722164
+    ],
+    [
+      0.8031642055138946,
+      0.7549308221787214,
+      0.04327156487852335,
+      0.8930329717695713
+    ],
+    [
+      0.015773680992424488,
+      0.4127616295590997,
+      0.8688289113342762,
+      0.42612611036747694
+    ],
+    [
+      0.9875457491725683,
+      0.26760037895292044,
+      0.9231617152690887,
+      0.15669602621346712
+    ],
+    [
+      0.2084098719060421,
+      0.9234761670231819,
+      0.22332916874438524,
+      0.6312016118317842
+    ],
+    [
+      0.6791918594390154,
+      0.626020991243422,
+      0.7007984723895788,
+      0.3116999799385667
+    ],
+    [
+      0.39175520092248917,
+      0.03386611305177212,
+      0.39892276655882597,
+      0.7744259368628263
+    ]
+  ],
+  "command_seed": 20261005,
+  "command_domain": "[0,0.05mg]^4 service-force-equivalent command probe, fixed 1/3 frozen0.15mg hardware upper; same for every pattern",
+  "service_probe_max_over_weight": 0.05,
+  "auxiliary_command": 0,
+  "actuator_initial_state": 0,
+  "initial_command_history": "zero before t0, shared held pulse after t0, original tauF/tauA",
+  "local_horizon_s": 0.25,
+  "dynamic_horizon_s": 0.75,
+  "integration_step_s": 0.002,
+  "dynamic_command_indices": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "repeatability_rule": "uniform repeat1,repeat2,main and fine step; all other patterns main+fine; repeats executed before paired patterns at each point/level",
+  "normalized_error_floor": 1e-06,
+  "difference_error_multiplier": 10,
+  "mirror_tolerance_norm": 1e-06,
+  "gate_min_points": 3,
+  "gate_min_levels": 2,
+  "metric_definitions": {
+    "B": "-sum(Fx_command-Fx_zero_service)",
+    "Mz": "-sum(y*(Fx_command-Fx_zero_service)); same paper positive y=left",
+    "geometry": "convex hull of sampled endpoint contact points; may overapproximate nonconvex sampled output, not exact attainability",
+    "normalization": "coordinates B/(mg),Mz/(mg*track),D_reference=1 fixed",
+    "Hausdorff": "exact polygon vertex-to-set symmetric distance for convex hulls",
+    "symmetric_difference": "polygon area A+B-2intersection; normalized and N2m",
+    "centroid": "uniform polygon-area centroid",
+    "principal_axis": "PCA of normalized hull vertices; boundary descriptor only"
+  },
+  "instantaneous_rule": "Read unchanged HF force at t0: fixed full state exceptT cannot change contact force; report null even if endpoint changes",
+  "local_state_evolution": "wheel omega and actuator bf only; body/load/steering/surface/core held at x0,T, original HF field masked to wheel/actuator rates",
+  "dynamic_state_evolution": "all27 original HF rates, thermal/core/roll/body evolution; matched initial means, endpoint means need not match",
+  "gate": "valid every command, thermal Hausdorff>10max(repeat,fine-step,errorfloor), mirrored direction reversal in straight symmetric points, >=3points and>=2thermal levels",
+  "numeric_fade_family": "unchanged original logistic, floors .4/.5/.6; SCENARIO_ONLY. Experimental literature supports mechanism not numeric shape",
+  "feasibility_reference_force_over_weight": 0.025,
+  "feasibility_gap_margin_m": 3,
+  "active_row_tolerance": 1e-06,
+  "feasibility_metric_tolerance": 1e-06,
+  "feasibility_gate": "Only after local mechanism pass: matched initial snapshot, same CACC request, frozen phaseI/hardQP; test active-label or QP-status change, no threshold search",
+  "main_text_limit": "model-conditional finite-horizon mechanism only; no instantaneous force map, quantitative experiment-grounded fade family or target applicability"
+}
