@@ -61,7 +61,37 @@ These are scenario-model results for non-articulated rigid heavy vehicles. Initi
 
 OpenAI Codex assisted with preparation of this package, script adaptation and verification. Numerical inputs were taken from the retained research records. The published workflows use conventional scientific plotting software; no generative image model is used.
 
-No publication DOI or open-source licence is asserted. See [rights status](RIGHTS.md).
+## Licensing
+
+Copyright holder and original simulation-data rights holder: **任林祥**.
+Original code is licensed under the [MIT License](LICENSE). Original simulation
+numerical data are licensed under [CC BY 4.0](DATA_LICENSE.md).
+See [RIGHTS.md](RIGHTS.md) and the [per-file register](docs/RIGHTS_SCOPE.json)
+for exact scope. Third-party packages/actions retain their own terms;
+documentation, manuscript text, images and the unpublished full historical
+archive do not automatically inherit the code/data grants.
+
+## Citation
+
+Please cite the numerical package as:
+
+> 任林祥 (2026). VSD Minimal Reproducibility, version 1.0.0.
+> https://github.com/renmingwangsui/vsd-minimal-reproducibility/releases/tag/v1.0.0
+
+Related manuscript (submission candidate; not an assertion of publication):
+*Wheel-Resolved Thermal Heterogeneity and Coupled Braking-Yaw Authority of
+Heavy-Duty Vehicles on Curved Downgrades*. The final author list, bibliographic
+publication details and DOI are not supplied; do not invent them. The Release
+records the complete source commit SHA, Actions verification URL and archive
+SHA-256. No Zenodo or manuscript DOI is asserted.
+
+The approximately **16.7 seconds** recorded for a previous clean-environment
+reproduction is an observation, not an execution-time guarantee. Installation
+time is separate; CPU, operating system, libraries and plotting backend can
+change runtime. The pinned Python dependencies are listed in requirements.txt.
+This workflow does not rerun complete upstream simulation generation, all
+historical negative controller/theory evidence or independent vehicle
+experiments, and it is not a complete theoretical safety certification.
 
 ## 中文说明
 

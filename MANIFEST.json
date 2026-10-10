@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "release_date": "2026-10-09",
+  "release_date": "2026-10-10",
   "scope": "Frozen result reproduction and independent saved-snapshot LP checks",
   "files": [
     {
@@ -19,14 +19,24 @@
       "sha256": "874db0d1d364adecd0280c8fbec7ffedc2520e60680a705843887b9075c0b8ab"
     },
     {
+      "path": "DATA_LICENSE.md",
+      "bytes": 1801,
+      "sha256": "02d26256b39e60f98e0ca13d9acf732ee05f4ffdc4780c771d8da2a8fa35a1e4"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1066,
+      "sha256": "0b3fc1998eca6f8f3ffde636ad80ae115152f98f47f5cda528ad95ab8af19853"
+    },
+    {
       "path": "README.md",
-      "bytes": 5750,
-      "sha256": "14ec885a3a768e2c99ff3922d9c587f5210100b2d37a6b9264ac071265740fae"
+      "bytes": 7345,
+      "sha256": "6c6ff214befb70c20be6c3a3f6980e8e7896bf028a69a85d259ccfe3eee3dc3f"
     },
     {
       "path": "RIGHTS.md",
-      "bytes": 574,
-      "sha256": "4cff3ccef492512dc46d5393bc6d917bbc2f2afd129f4a1e3e10e1a9a3d85e77"
+      "bytes": 3690,
+      "sha256": "0cb8fe42ccca45cbef58aab03be4be59f2850d7841e428cf855c7e86e904d574"
     },
     {
       "path": "data/records/output/fade_independence/raw/F1/dynamic/P2_T475_pattern1_main.mat",
@@ -554,6 +564,11 @@
       "sha256": "279409737e6acad1a1e1577fc28762820c57940bf8a060d046ad1a7c43ee5160"
     },
     {
+      "path": "docs/RIGHTS_SCOPE.json",
+      "bytes": 29306,
+      "sha256": "fa9bf0b23475e65702fc39ed2e44fe8ad814dcc489cc6ee0047d068f573aabdd"
+    },
+    {
       "path": "docs/SCIENTIFIC_SCOPE.md",
       "bytes": 3096,
       "sha256": "4e76ab4b10d988139dbde6830f2011dce15350dde89db5f3523e2781464f65c0"
@@ -623,5 +638,6 @@
       "bytes": 6718,
       "sha256": "db169182891ecfaf4c8dded4c3151f1a2ff3fcdcca1d5a1c68c51d8b0339da6b"
     }
-  ]
+  ],
+  "release_version": "1.0.0"
 }

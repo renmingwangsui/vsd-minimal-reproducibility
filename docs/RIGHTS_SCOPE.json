@@ -1,0 +1,788 @@
+{
+  "version": "1.0.0",
+  "authorisation_date": "2026-10-10",
+  "basis": "Explicit author approval for original code MIT and original simulation numerical data CC BY 4.0; prior source-lineage/content audit",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "classification": "original code or declarative build configuration",
+      "licence": "MIT",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": ".github/workflows/reproduce.yml",
+      "classification": "original code or declarative build configuration",
+      "licence": "MIT",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": ".gitignore",
+      "classification": "original code or declarative build configuration",
+      "licence": "MIT",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "DATA_LICENSE.md",
+      "classification": "excluded prose, metadata or legal notice",
+      "licence": "NO_NEW_GRANT",
+      "rights_holder": "not inferred for excluded materials"
+    },
+    {
+      "path": "LICENSE",
+      "classification": "excluded prose, metadata or legal notice",
+      "licence": "NO_NEW_GRANT",
+      "rights_holder": "not inferred for excluded materials"
+    },
+    {
+      "path": "MANIFEST.json",
+      "classification": "excluded prose, metadata or legal notice",
+      "licence": "NO_NEW_GRANT",
+      "rights_holder": "not inferred for excluded materials"
+    },
+    {
+      "path": "README.md",
+      "classification": "excluded prose, metadata or legal notice",
+      "licence": "NO_NEW_GRANT",
+      "rights_holder": "not inferred for excluded materials"
+    },
+    {
+      "path": "RIGHTS.md",
+      "classification": "excluded prose, metadata or legal notice",
+      "licence": "NO_NEW_GRANT",
+      "rights_holder": "not inferred for excluded materials"
+    },
+    {
+      "path": "data/records/output/fade_independence/raw/F1/dynamic/P2_T475_pattern1_main.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/fade_independence/raw/F1/dynamic/P2_T475_pattern2_main.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/fade_independence/raw/F1/dynamic/P2_T475_pattern3_main.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/fade_independence/raw/F1/dynamic/P2_T475_pattern4_main.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/fade_independence/raw/F1/dynamic/P4_T475_pattern1_main.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/fade_independence/raw/F1/dynamic/P4_T475_pattern2_main.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/fade_independence/raw/F1/dynamic/P4_T475_pattern3_main.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/fade_independence/raw/F1/dynamic/P4_T475_pattern4_main.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/final_submission_closure/trajectories/F1/P2_T475_pattern1_main.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/final_submission_closure/trajectories/F1/P2_T475_pattern2_main.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/final_submission_closure/trajectories/F1/P2_T475_pattern3_main.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/final_submission_closure/trajectories/F1/P2_T475_pattern4_main.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/final_submission_closure/trajectories/F1/P4_T475_pattern1_main.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/final_submission_closure/trajectories/F1/P4_T475_pattern2_main.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/final_submission_closure/trajectories/F1/P4_T475_pattern3_main.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/final_submission_closure/trajectories/F1/P4_T475_pattern4_main.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P1_T400_pattern1.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P1_T400_pattern2.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P1_T400_pattern3.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P1_T400_pattern4.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P1_T475_pattern1.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P1_T475_pattern2.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P1_T475_pattern3.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P1_T475_pattern4.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P1_T550_pattern1.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P1_T550_pattern2.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P1_T550_pattern3.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P1_T550_pattern4.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P2_T400_pattern1.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P2_T400_pattern2.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P2_T400_pattern3.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P2_T400_pattern4.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P2_T475_pattern1.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P2_T475_pattern2.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P2_T475_pattern3.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P2_T475_pattern4.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P2_T550_pattern1.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P2_T550_pattern2.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P2_T550_pattern3.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P2_T550_pattern4.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P3_T400_pattern1.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P3_T400_pattern2.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P3_T400_pattern3.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P3_T400_pattern4.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P3_T475_pattern1.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P3_T475_pattern2.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P3_T475_pattern3.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P3_T475_pattern4.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P3_T550_pattern1.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P3_T550_pattern2.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P3_T550_pattern3.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P3_T550_pattern4.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P4_T400_pattern1.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P4_T400_pattern2.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P4_T400_pattern3.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P4_T400_pattern4.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P4_T475_pattern1.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P4_T475_pattern2.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P4_T475_pattern3.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P4_T475_pattern4.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P4_T550_pattern1.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P4_T550_pattern2.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P4_T550_pattern3.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P4_T550_pattern4.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P5_T400_pattern1.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P5_T400_pattern2.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P5_T400_pattern3.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P5_T400_pattern4.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P5_T475_pattern1.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P5_T475_pattern2.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P5_T475_pattern3.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P5_T475_pattern4.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P5_T550_pattern1.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P5_T550_pattern2.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P5_T550_pattern3.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P5_T550_pattern4.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P6_T400_pattern1.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P6_T400_pattern2.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P6_T400_pattern3.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P6_T400_pattern4.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P6_T475_pattern1.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P6_T475_pattern2.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P6_T475_pattern3.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P6_T475_pattern4.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P6_T550_pattern1.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P6_T550_pattern2.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P6_T550_pattern3.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/feasibility/P6_T550_pattern4.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/lumped_dynamic/P3_T475_main.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/lumped_dynamic/P4_T475_main.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/raw/dynamic/P3_T475_pattern2_main.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/raw/dynamic/P3_T475_pattern3_main.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/raw/dynamic/P4_T475_pattern2_main.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/raw/dynamic/P4_T475_pattern3_main.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/raw/local/P3_T475_pattern1_main.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/raw/local/P3_T475_pattern2_main.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/raw/local/P3_T475_pattern3_main.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/records/output/thermal_authority/raw/local/P3_T475_pattern4_main.mat",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/tables/ALL72_FROZEN_SNAPSHOTS.csv",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/tables/FADE_FORM_ROBUSTNESS_RESULTS.csv",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/tables/LUMPED_VS_WHEEL_RESOLVED_AUTHORITY.csv",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/tables/PHASE_I_RESERVE_PAIRWISE.csv",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/tables/THERMAL_AUTHORITY_EFFECT_SIZE.csv",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/tables/THERMAL_YAW_ENGINEERING_TRANSLATION.csv",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "data/tables/all_lumped.csv",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "docs/RIGHTS_SCOPE.json",
+      "classification": "excluded prose, metadata or legal notice",
+      "licence": "NO_NEW_GRANT",
+      "rights_holder": "not inferred for excluded materials"
+    },
+    {
+      "path": "docs/SCIENTIFIC_SCOPE.md",
+      "classification": "excluded prose, metadata or legal notice",
+      "licence": "NO_NEW_GRANT",
+      "rights_holder": "not inferred for excluded materials"
+    },
+    {
+      "path": "docs/SOURCE_LINEAGE.json",
+      "classification": "excluded prose, metadata or legal notice",
+      "licence": "NO_NEW_GRANT",
+      "rights_holder": "not inferred for excluded materials"
+    },
+    {
+      "path": "docs/THERMAL_AUTHORITY_PROTOCOL.json",
+      "classification": "excluded prose, metadata or legal notice",
+      "licence": "NO_NEW_GRANT",
+      "rights_holder": "not inferred for excluded materials"
+    },
+    {
+      "path": "expected/LOCAL_VERIFICATION_REPORT.json",
+      "classification": "excluded prose, metadata or legal notice",
+      "licence": "NO_NEW_GRANT",
+      "rights_holder": "not inferred for excluded materials"
+    },
+    {
+      "path": "expected/VSD_FEASIBILITY_PLOT_RECORDS.csv",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "expected/VSD_FIG3_TIME_HISTORIES.csv",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "expected/VSD_STRATIFICATION_QUANTILES.csv",
+      "classification": "original simulation numerical data",
+      "licence": "CC-BY-4.0",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "reference_model/matlab/closureTrajectoryIntegrate.m",
+      "classification": "original code or declarative build configuration",
+      "licence": "MIT",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "reference_model/matlab/hfVectorField.m",
+      "classification": "original code or declarative build configuration",
+      "licence": "MIT",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "reference_model/matlab/thermalAuthorityIntegrateLumped.m",
+      "classification": "original code or declarative build configuration",
+      "licence": "MIT",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "reproduce.py",
+      "classification": "original code or declarative build configuration",
+      "licence": "MIT",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "requirements.txt",
+      "classification": "original code or declarative build configuration",
+      "licence": "MIT",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "scripts/make_figures.py",
+      "classification": "original code or declarative build configuration",
+      "licence": "MIT",
+      "rights_holder": "任林祥"
+    },
+    {
+      "path": "scripts/verify_records.py",
+      "classification": "original code or declarative build configuration",
+      "licence": "MIT",
+      "rights_holder": "任林祥"
+    }
+  ],
+  "third_party": "Referenced packages/actions retain original licences; none vendored",
+  "outside_release": [
+    "generated images",
+    "manuscript text",
+    "third-party articles and external data",
+    "full historical research archive",
+    "private execution and AI records"
+  ],
+  "unresolved_excluded_materials": [
+    "prose/metadata not granted a general reuse licence",
+    "image/manuscript rights",
+    "full archive access arrangements"
+  ]
+}
