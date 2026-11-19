@@ -1,0 +1,14 @@
+descriptor_class,history_id,output,node,time_s,value
+synthetic_class_A,h1,yaw_rate,0,0.0,0.0
+synthetic_class_A,h1,yaw_rate,1,0.1,1.0
+synthetic_class_A,h1,yaw_rate,2,0.2,2.0
+synthetic_class_A,h2,yaw_rate,0,0.0,0.2
+synthetic_class_A,h2,yaw_rate,1,0.1,0.6
+synthetic_class_A,h2,yaw_rate,2,0.2,2.4
+synthetic_class_A,h3,yaw_rate,0,0.0,-0.1
+synthetic_class_A,h3,yaw_rate,1,0.1,1.4
+synthetic_class_A,h3,yaw_rate,2,0.2,1.8
+synthetic_class_B,h1,sideslip,0,0.0,0.01
+synthetic_class_B,h1,sideslip,1,0.1,0.02
+synthetic_class_B,h2,sideslip,0,0.0,0.03
+synthetic_class_B,h2,sideslip,1,0.1,0.01
