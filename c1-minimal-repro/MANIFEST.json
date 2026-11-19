@@ -1,25 +1,25 @@
 {
   "scope": "synthetic demonstration only; not the exact C1 reviewer archive",
-  "files": [
+  "entries": [
     {
       "path": "README.md",
-      "sha256": ""
+      "git_blob_sha": "5fc05aacc19b11cede68fb45ecd8c1edf1a98234"
     },
     {
       "path": "scripts/minimax_saved_history.py",
-      "sha256": ""
+      "git_blob_sha": "bafb9cc7732eb1028bf9e0ed2a30e20992e0c5d6"
     },
     {
       "path": "data/synthetic_histories.csv",
-      "sha256": ""
+      "git_blob_sha": "a28747c5d538c43d893afbd31862db37bd06c524"
     },
     {
       "path": "expected_minimax_summary.csv",
-      "sha256": ""
+      "git_blob_sha": "b2b0f74fd38eb5e1350638e383f8b13b22627901"
     },
     {
       "path": "RIGHTS_SCOPE.md",
-      "sha256": ""
+      "git_blob_sha": "3e6e76c4760eb78e5e29990fd55bca3739df492b"
     }
   ]
 }
