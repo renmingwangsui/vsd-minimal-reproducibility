@@ -1,0 +1,25 @@
+{
+  "scope": "synthetic demonstration only; not the exact C1 reviewer archive",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": ""
+    },
+    {
+      "path": "scripts/minimax_saved_history.py",
+      "sha256": ""
+    },
+    {
+      "path": "data/synthetic_histories.csv",
+      "sha256": ""
+    },
+    {
+      "path": "expected_minimax_summary.csv",
+      "sha256": ""
+    },
+    {
+      "path": "RIGHTS_SCOPE.md",
+      "sha256": ""
+    }
+  ]
+}
